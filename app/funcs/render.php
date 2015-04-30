@@ -96,7 +96,7 @@ function render_manual_items() {
 	}
 	
 	foreach ($items as $item) {
-		echo $item . "<br/>";
+		echo $item , "<br/>";
 	}
 }
 

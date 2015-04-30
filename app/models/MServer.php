@@ -251,7 +251,7 @@ class MServer {
 			if (preg_match("/authenticate/i", $e->getMessage())) {
 				return false;
 			}
-			echo "Unable to connect MongoDB, please check your configurations. MongoDB said:" . $e->getMessage() . ".";
+			echo "Unable to connect MongoDB, please check your configurations. MongoDB said:" , $e->getMessage() , ".";
 			exit();
 		}
 		
