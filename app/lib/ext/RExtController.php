@@ -23,7 +23,7 @@ class RExtController extends RController {
 	 */
 	function redirectUrl($url, $js = false) {
 		if ($js) {
-			echo '<script language="Javascript">window.location="' . $url . '"</script>';
+			echo '<script language="Javascript">window.location="' , $url , '"</script>';
 			exit();
 		}
 		header("location:{$url}");

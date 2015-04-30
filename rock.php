@@ -269,7 +269,7 @@ function p($data1 = null) {
 		else if (is_bool($arg)) {
 			$arg = $arg ? "TRUE" : "FALSE";
 		}
-		echo "<xmp>\n" . print_r($arg, true) . "\n</xmp>\n";
+		echo "<xmp>\n" , print_r($arg, true) , "\n</xmp>\n";
 	}
 }
 
